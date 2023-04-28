@@ -1,0 +1,87 @@
+/* 
+a:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px; 
+    text-transform: capitalize;
+} 
+.jumbotron{
+    background-image: linear-gradient(to left, rgb(253, 122, 122), rgb(251, 207, 124), rgb(101, 198, 101), rgb(105, 105, 214), rgb(198, 106, 198));
+}
+.fluid-container{
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    text-align: left;
+    margin-top: 0;
+}
+.nav-bar{
+    text-align: end;
+}
+.iframe-container{
+    display: flex;
+    text-align: left;
+    padding-top: 40px;
+} 
+h3{
+    justify-content: end;
+} */
+
+/styles do not get rid of
+
+/* navbar */
+.navbar-nav{
+    text-align: left;
+}
+.logo{
+    text-align: center !important;
+}
+.nav-link{
+    background-color: #9394b5;
+    align-items: center;
+    list-style-position: inside;
+}
+.navbar {
+    position: relative;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.links{
+    text-align: start !important;
+}
+.inputForm{
+    text-align: end;
+}
+/* body/main */
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left, rgb(249, 216, 216), #f7e2bb, rgb(179, 197, 179), rgb(167, 167, 211), rgb(229, 197, 229));
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.top-nav-bar{
+    text-align: end;
+}
+#name{
+    margin-left: 34px;
+}
+#Email{
+    margin-left: 10px;
+}
+.mb-3{
+    margin-top: 10px;
+}
+.form-text{
+    margin: 12px;
+}
+.btn{
+    margin: 10px;
+}
+
+/* footer */
