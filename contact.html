@@ -8,12 +8,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Contact us page</title>
+    <title>Product landing page</title>
 </head>
 
 <body>
-    <div class="contact" style="display:flex; justify-content: center;">
-        <div class="card" style="width: 500px; height: 230px;">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./rodreel.html">View More</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact us</a>
+                </li>
+            </ul>
+            <h4>
+                <a class="logo" href="./images/happyheartcreations-removebg-preview.png">
+                    HappyHeartCreations LLC
+                </a>
+            </h4>
+            Login:
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="email" placeholder="email" aria-label="email">
+                <input class="form-control mr-sm-2" type="password" placeholder="password" aria-label="password">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Enter</button>
+            </form>
+        </div>
+    </nav>
+    <div class="contact">
+        <div class="card" style="width: 600px; height: 100px;">
             <img src="./images/happyheartcreations.png" class="card-img-top"
                 alt="https://www.bizapedia.com/oh/happy-heart-creations-llc.html" width="450px" height="150px">
             <div class="card-body">
@@ -21,29 +51,34 @@
                 <p class="card-text">Contact the manager/founder to make any purchases and feedbacks</p>
                 <form>
                     <div class="box">
-                        <div class="mb-3">
-                            <label for="Email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="Email" required>
+                        <div class="mb-2">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required
+                                placeholder="Enter your full name">
                         </div>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Full name</label>
-                            <input type="text" class="form-control" id="name">
+                        <div class="mb-2">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" required placeholder="Enter your email">
                         </div>
-                        <div class="mb-3">
-                            <label for="phoneNumber" class="form-label">Phone Number</label>
-                            <input type="number" class="form-control" id="phoneNumber">
+                        <div class="mb-2">
+                            <label for="phoneNumber" class="form-label">Phone</label>
+                            <input type="number" class="form-control" id="phoneNumber" required
+                                placeholder="Enter your phone number">
                         </div>
+                        <div class="mb-2">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control" id="message" required
+                                placeholder="Enter the detailed message">
+                        </div>
+                        <div class="form-text">We'll never share your email with anyone else.</div>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </div>
-                    <div class="form-text">We'll never share your email with anyone else.</div>
-
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+
                 <a href="./index.html" class="btn btn-primary">Go To Homepage</a>
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
