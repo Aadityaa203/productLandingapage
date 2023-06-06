@@ -1,35 +1,4 @@
-/* 
-a:hover{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px; 
-    text-transform: capitalize;
-} 
-.jumbotron{
-    background-image: linear-gradient(to left, rgb(253, 122, 122), rgb(251, 207, 124), rgb(101, 198, 101), rgb(105, 105, 214), rgb(198, 106, 198));
-}
-.fluid-container{
-    padding: 20px;
-    text-align: center;
-}
-.logo{
-    text-align: left;
-    margin-top: 0;
-}
-.nav-bar{
-    text-align: end;
-}
-.iframe-container{
-    display: flex;
-    text-align: left;
-    padding-top: 40px;
-} 
-h3{
-    justify-content: end;
-} */
-
-/styles do not get rid of
-
-/* navbar */
+    /* navbar */
 .navbar-nav{
     text-align: left;
 }
@@ -41,6 +10,10 @@ h3{
     margin-top: 0;
     position: relative;
 }
+.top-nav-bar{
+    text-align: end;
+}
+    /* navbar logo */
 .logo {
     font-size: 25px;
     color: rgba(0, 0, 0, 0.508);
@@ -58,16 +31,13 @@ h3{
     margin-left: -250px;
 }
 
-/* body/main */
+    /* body/main */
 body{
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to left, rgb(249, 216, 216), #f7e2bb, rgb(179, 197, 179), rgb(167, 167, 211), rgb(229, 197, 229));
     text-align: center;
     margin: 0;
     padding: 0;
-}
-.top-nav-bar{
-    text-align: end;
 }
 h5{
     margin-top: 20px;
@@ -81,7 +51,7 @@ h5:hover{
 #Email{
     margin-left: 6px;
 }
-
+    /* form */
 .form-text{
     margin: 12px;
 }
@@ -90,27 +60,27 @@ h5:hover{
     background-color: green;
 }
 
-/* footer */
+    /* footer */
 .footer{
     align-items: center;
 }
-/Rod reel css
+    /* Rod reel css  */
 .col-50 {
     flex: 1;
 }
+/* Images */
 .product-img {
     height: 250px;
     overflow: hidden;
     position: relative;
 }
-
 .product-img img {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* product info */
 .product-info {
     text-align: center;
     margin-top: 80px;
@@ -128,7 +98,7 @@ h5:hover{
     width: 100%;
     height: auto;
 }
-  .img1 {
+.img1 {
     margin-bottom: 5px;
 } 
 .img2 {
